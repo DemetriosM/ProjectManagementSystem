@@ -15,14 +15,14 @@ public class DeveloperDaoImpl extends BaseDaoImpl<Developer> implements Develope
     private static final String FIND_BY_ID = "SELECT * FROM developers WHERE id = ?";
     private static final String CREATE = "INSERT INTO developers (surname, name, salary, companies_id) VALUES(?, ?, ?, ?)";
     private static final String DELETE = "DELETE FROM developers WHERE id = ?";
-    private static final String DISCONNECT_SKILLS = "DELETE FROM developers_has_skills WHERE developers.id = ?";
-    private static final String DISCONNECT_PROJECTS = "DELETE FROM developers_has_projects WHERE developers.id = ?";
+    private static final String DISCONNECT_SKILLS = "DELETE FROM developers_has_skills WHERE developers_id = ?";
+    private static final String DISCONNECT_PROJECTS = "DELETE FROM developers_has_projects WHERE developers_id = ?";
     private static final String UPDATE =
             "UPDATE developers SET surname = ?, name = ?, salary = ?, companies_id = ? WHERE id = ?";
     private static final String DEVELOPER_HAS_SKILLS =
             "SELECT skills.id, lang FROM developers_has_skills, skills WHERE developers_id = ? and skills_id = skills.id;";
-    private static final String ADD_SKILL = "INSERT INTO developers_has_skill (developers_id, skills_id) VALUES (?, ?)";
-    private static final String REMOVE_SKILL = "DELETE FROM developers_has_skill WHERE developers_id = ? and skills_id = ?";
+    private static final String ADD_SKILL = "INSERT INTO developers_has_skills (developers_id, skills_id) VALUES (?, ?)";
+    private static final String REMOVE_SKILL = "DELETE FROM developers_has_skills WHERE developers_id = ? and skills_id = ?";
     private static final String DEVELOPER_HAS_PROJECTS =
             "SELECT projects.id, projects.name, customers_id, cost  FROM projects, developers_has_projects WHERE developers_id = ? and projects.id = projects_id;";
     private static final String ADD_PROJECT = "INSERT INTO developers_has_projects (developers_id, projects_id) VALUES (?, ?)";
@@ -215,7 +215,7 @@ public class DeveloperDaoImpl extends BaseDaoImpl<Developer> implements Develope
         try(Connection connection = getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(DISCONNECT_SKILLS)) {
             preparedStatement.setLong(1, developerId);
-            preparedStatement.executeQuery();
+            preparedStatement.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -225,7 +225,7 @@ public class DeveloperDaoImpl extends BaseDaoImpl<Developer> implements Develope
         try(Connection connection = getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(DISCONNECT_PROJECTS)) {
             preparedStatement.setLong(1, developerId);
-            preparedStatement.executeQuery();
+            preparedStatement.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

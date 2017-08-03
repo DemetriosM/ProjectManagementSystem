@@ -19,7 +19,7 @@ public class CustomerDaoImpl extends BaseDaoImpl<Customer> implements CustomerDa
     private ProjectDao projectDao;
 
     public CustomerDaoImpl() {
-        this.projectDao = projectDao;
+        this.projectDao = new ProjectDaoImpl();
     }
 
     @Override

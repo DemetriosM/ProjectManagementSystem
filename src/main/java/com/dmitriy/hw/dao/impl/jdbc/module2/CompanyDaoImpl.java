@@ -20,6 +20,8 @@ public class CompanyDaoImpl extends BaseDaoImpl<Company> implements CompanyDao {
     private static final String UPDATE = "UPDATE companies SET name = ?, city = ? WHERE id = ?";
     private static final String COMPANY_HAS_PROJECTS =
             "SELECT projects.id, projects.name, customers_id, cost  FROM projects, companies_has_projects WHERE companies_id = ? and projects.id = projects_id";
+    private static final String GET_OTHER_PROJECTS =
+            "SELECT * FROM projects WHERE id NOT IN (SELECT projects_id FROM companies_has_projects WHERE companies_id =1);";
     private static final String ADD_PROJECT = "INSERT INTO companies_has_projects (companies_id, projects_id) VALUES (?, ?)";
     private static final String REMOVE_PROJECT = "DELETE FROM companies_has_projects WHERE companies_id = ? and projects_id = ?";
     private DeveloperDao developerDao;
@@ -132,6 +134,25 @@ public class CompanyDaoImpl extends BaseDaoImpl<Company> implements CompanyDao {
     }
 
     @Override
+    public List<Project> getOtherProjects(Long companyId) {
+        List<Project> projects = new ArrayList<>();
+        try (Connection connection = getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(GET_OTHER_PROJECTS)) {
+            preparedStatement.setLong(1, companyId);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while(resultSet.next()) {
+                Project project = new Project(resultSet.getString("name"),
+                        resultSet.getLong("customers_id"), resultSet.getInt("cost"));
+                project.setId(resultSet.getLong("id"));
+                projects.add(project);
+            }
+            return projects;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Override
     public boolean connectProject(Long companyId, Long projectId) {
         try(Connection connection = getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(ADD_PROJECT)) {
@@ -161,7 +182,7 @@ public class CompanyDaoImpl extends BaseDaoImpl<Company> implements CompanyDao {
         try(Connection connection = getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(DISCONNECT_PROJECTS)) {
             preparedStatement.setLong(1, companyId);
-            preparedStatement.executeQuery();
+            preparedStatement.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

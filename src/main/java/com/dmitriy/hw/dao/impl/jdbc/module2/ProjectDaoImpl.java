@@ -106,7 +106,7 @@ public class ProjectDaoImpl extends BaseDaoImpl<Project> implements ProjectDao {
         try(Connection connection = getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(DISCONNECT_DEVELOPERS)) {
             preparedStatement.setLong(1, projectId);
-            preparedStatement.executeQuery();
+            preparedStatement.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -116,7 +116,7 @@ public class ProjectDaoImpl extends BaseDaoImpl<Project> implements ProjectDao {
         try(Connection connection = getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(DISCONNECT_COMPANIES)) {
             preparedStatement.setLong(1, projectId);
-            preparedStatement.executeQuery();
+            preparedStatement.executeUpdate();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

@@ -13,6 +13,7 @@ public class SkillDaoImpl extends BaseDaoImpl<Skill> implements SkillDao{
     private static final String FIND_BY_ID = "SELECT * FROM skills WHERE id = ?";
     private static final String CREATE = "INSERT INTO skills (lang) VALUES(?)";
     private static final String DELETE = "DELETE FROM skills WHERE id = ?";
+    private static final String DISCONNECT_DEVELOPERS = "DELETE FROM developers_has_skills WHERE skills_id = ?";
     private static final String UPDATE = "UPDATE skills SET lang = ? WHERE id = ?";
 
     @Override
@@ -66,6 +67,7 @@ public class SkillDaoImpl extends BaseDaoImpl<Skill> implements SkillDao{
 
     @Override
     public boolean delete(Long id) {
+        disconnectAllDevelopers(id);
         try(Connection connection = getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(DELETE)) {
             preparedStatement.setLong(1, id);
@@ -88,6 +90,16 @@ public class SkillDaoImpl extends BaseDaoImpl<Skill> implements SkillDao{
                 skills.add(skill);
             }
             return skills;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void disconnectAllDevelopers(Long skillId) {
+        try(Connection connection = getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(DISCONNECT_DEVELOPERS)) {
+            preparedStatement.setLong(1, skillId);
+            preparedStatement.executeQuery();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

@@ -7,6 +7,7 @@ import java.util.List;
 
 public interface CompanyDao extends BaseDao<Company> {
     List<Project> getCompanyProjects(Long companyId);
+    List<Project> getOtherProjects(Long companyId);
     boolean connectProject(Long companyId, Long projectId);
     boolean disconnectProject(Long companyId, Long projectId);
 }
