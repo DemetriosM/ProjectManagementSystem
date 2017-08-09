@@ -1,0 +1,206 @@
+2017-08-08 11:57:52.209 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 11:57:52.240 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 11:57:53.221 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 11:57:53.668 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 11:57:53.737 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 11:57:53.753 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 11:57:53.753 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 11:57:53.768 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 11:59:10.656 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 11:59:10.666 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 11:59:11.570 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 11:59:12.091 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 11:59:12.107 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 11:59:12.110 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 11:59:12.111 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 11:59:12.194 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 11:59:13.596 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 12:02:21.475 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 12:02:21.498 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 12:02:22.166 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 12:02:22.621 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 12:02:22.646 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 12:02:22.671 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 12:02:22.672 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 12:02:22.785 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 12:02:23.629 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 12:06:11.881 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 12:06:11.923 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 12:06:12.722 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 12:06:13.266 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 12:06:13.323 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 12:06:13.325 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 12:06:13.326 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 12:06:13.412 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 12:06:14.274 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 12:11:42.135 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 12:11:42.147 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 12:11:43.017 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 12:11:43.360 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 12:11:43.374 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 12:11:43.376 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 12:11:43.376 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 12:11:43.383 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 12:11:44.381 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 12:40:30.984 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 12:40:31.032 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 12:40:31.764 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 12:40:32.248 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 12:40:32.263 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 12:40:32.265 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 12:40:32.266 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 12:40:32.377 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 12:40:33.188 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 12:46:02.452 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 12:46:02.491 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 12:46:03.307 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 12:46:03.903 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 12:46:03.921 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 12:46:03.923 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 12:46:03.924 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 12:46:03.931 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 12:46:04.780 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 12:54:22.237 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 12:54:22.248 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 12:54:22.981 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 12:54:23.570 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 12:54:23.585 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 12:54:23.588 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 12:54:23.589 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 12:54:23.644 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 12:54:24.567 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 12:55:52.202 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 12:55:52.218 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 12:55:52.937 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 12:55:53.445 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 12:55:53.465 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 12:55:53.466 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 12:55:53.467 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 12:55:53.474 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 12:55:54.401 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 12:58:30.838 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 12:58:30.847 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 12:58:31.567 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 12:58:31.942 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 12:58:31.960 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 12:58:31.961 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 12:58:31.962 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 12:58:32.068 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 12:58:33.005 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 13:00:11.219 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 13:00:11.230 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 13:00:12.288 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 13:00:12.687 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 13:00:12.703 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 13:00:12.705 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 13:00:12.706 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 13:00:12.715 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 13:00:13.438 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 13:19:31.540 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 13:19:31.553 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 13:19:32.399 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 13:19:32.612 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 13:19:32.612 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 13:19:32.628 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 13:19:32.628 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 13:19:32.628 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 13:19:33.578 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 13:26:52.280 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 13:26:52.290 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 13:26:53.191 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 13:26:53.614 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 13:26:53.678 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 13:26:53.681 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 13:26:53.682 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 13:26:53.690 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 13:26:54.455 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 13:28:05.682 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 13:28:05.692 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 13:28:06.502 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 13:28:06.771 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 13:28:06.787 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 13:28:06.788 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 13:28:06.789 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 13:28:06.808 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 13:28:07.911 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 13:31:17.440 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 13:31:17.499 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 13:31:18.236 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 13:31:18.776 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 13:31:18.790 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 13:31:18.791 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 13:31:18.792 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 13:31:18.800 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 13:31:19.553 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 13:39:11.649 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 13:39:11.659 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 13:39:12.394 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 13:39:13.040 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 13:39:13.061 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 13:39:13.063 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 13:39:13.065 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 13:39:13.103 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 13:39:13.752 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 13:45:43.876 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 13:45:43.886 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 13:45:44.769 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 13:45:45.218 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 13:45:45.231 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 13:45:45.232 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 13:45:45.233 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 13:45:45.313 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 13:45:45.969 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 13:45:48.935 | INFO  | [main] o.h.o.c.access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25f7391e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-08 13:45:49.420 | INFO  | [main] o.h.o.c.pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 14:00:31.526 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 14:00:31.544 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 14:00:32.177 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 14:00:32.361 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 14:00:32.377 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 14:00:32.377 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 14:00:32.377 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 14:00:32.377 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 14:00:32.910 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 14:00:34.911 | INFO  | [main] o.h.o.c.access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25f7391e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-08 14:00:35.263 | INFO  | [main] o.h.o.c.pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 14:05:10.427 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 14:05:10.440 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 14:05:11.279 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 14:05:11.905 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 14:05:11.921 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 14:05:11.922 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 14:05:11.924 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 14:05:12.017 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 14:05:13.042 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 14:05:14.946 | INFO  | [main] o.h.o.c.access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25f7391e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-08 14:05:15.603 | INFO  | [main] o.h.o.c.pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 14:06:51.147 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 14:06:51.178 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 14:06:51.927 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 14:06:52.440 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 14:06:52.459 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 14:06:52.460 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 14:06:52.480 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 14:06:52.495 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 14:06:53.406 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 14:06:55.290 | INFO  | [main] o.h.o.c.access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10c8f62] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-08 14:06:55.640 | INFO  | [main] o.h.o.c.pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 19:10:56.386 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 19:10:56.439 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 19:10:59.274 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 19:10:59.976 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 19:11:00.061 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 19:11:00.061 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 19:11:00.061 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 19:11:00.123 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 19:11:52.218 | INFO  | [main] o.h.Version:45 - HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-08 19:11:52.228 | INFO  | [main] o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-08-08 19:11:53.203 | INFO  | [main] o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-08 19:11:53.627 | WARN  | [main] o.h.o.c.pooling:70 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-08-08 19:11:53.691 | INFO  | [main] o.h.o.c.pooling:126 - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]
+2017-08-08 19:11:53.694 | INFO  | [main] o.h.o.c.pooling:135 - HHH10001001: Connection properties: {user=root, password=****}
+2017-08-08 19:11:53.695 | INFO  | [main] o.h.o.c.pooling:140 - HHH10001003: Autocommit mode: false
+2017-08-08 19:11:53.705 | INFO  | [main] o.h.e.j.c.i.DriverManagerConnectionProviderImpl:41 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-08-08 19:11:55.263 | INFO  | [main] o.h.d.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-08 19:11:58.868 | INFO  | [main] o.h.o.c.access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10c8f62] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-08 19:11:59.325 | INFO  | [main] o.h.o.c.pooling:230 - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/dev?useSSL=true&serverTimezone=UTC]

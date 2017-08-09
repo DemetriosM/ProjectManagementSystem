@@ -1,8 +1,20 @@
 package com.dmitriy.hw.model;
 
+import javax.persistence.*;
+import java.util.List;
+
+@Entity
+@Table(name = "customers")
 public class Customer extends BaseModel{
+    @Column
     private String name;
+    @Column
     private String city;
+    @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<Project> projects;
+
+    public Customer() {
+    }
 
     public Customer(String name, String city) {
         this.name = name;
@@ -23,6 +35,14 @@ public class Customer extends BaseModel{
 
     public void setCity(String city) {
         this.city = city;
+    }
+
+    public List<Project> getProjects() {
+        return projects;
+    }
+
+    public void setProjects(List<Project> projects) {
+        this.projects = projects;
     }
 
     @Override

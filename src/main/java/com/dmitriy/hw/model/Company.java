@@ -1,11 +1,25 @@
 package com.dmitriy.hw.model;
 
+import javax.persistence.*;
 import java.util.List;
 
+@Entity
+@Table(name = "companies")
 public class Company extends BaseModel {
+    @Column
     private String name;
+    @Column
     private String city;
+    @ManyToMany(cascade = CascadeType.REFRESH)
+    @JoinTable(name = "companies_has_projects",
+        joinColumns = @JoinColumn(name = "companies_id", referencedColumnName = "id"),
+        inverseJoinColumns = @JoinColumn(name = "projects_id", referencedColumnName = "id"))
     private List<Project> projects;
+    @OneToMany(mappedBy = "company", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<Developer> developers;
+
+    public Company() {
+    }
 
     public Company(String name, String city) {
         this.name = name;
@@ -34,6 +48,14 @@ public class Company extends BaseModel {
 
     public void setProjects(List<Project> projects) {
         this.projects = projects;
+    }
+
+    public List<Developer> getDevelopers() {
+        return developers;
+    }
+
+    public void setDevelopers(List<Developer> developers) {
+        this.developers = developers;
     }
 
     @Override

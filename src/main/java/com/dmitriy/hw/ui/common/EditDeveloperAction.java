@@ -17,6 +17,7 @@ public class EditDeveloperAction extends AbstractDeveloperAction {
         developer.setSalary(Integer.parseInt(getValidString().trim()));
         System.out.println("Select company.");
         Company company = commandLine.choose(companyDao.getAll());
+        developer.setCompany(company);
         developer.setCompanyId(company.getId());
         developerDao.update(developer);
     }

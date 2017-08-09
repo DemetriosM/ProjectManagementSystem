@@ -15,7 +15,8 @@ public class EditProjectAction extends AbstractProjectAction{
         project.setCost(Integer.parseInt(getValidString().trim()));
         System.out.println("Select customer:");
         Customer customer = commandLine.choose(customerDao.getAll());
-        project.setCustomer(customer.getId());
+        project.setCustomer(customer);
+        project.setCustomerId(customer.getId());
         projectDao.update(project);
     }
 

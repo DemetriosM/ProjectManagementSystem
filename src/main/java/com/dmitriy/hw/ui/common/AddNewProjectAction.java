@@ -13,7 +13,8 @@ public class AddNewProjectAction extends AbstractProjectAction{
         Integer companyCost = Integer.parseInt(getValidString().trim());
         System.out.println("Select customer:");
         Customer customer = commandLine.choose(customerDao.getAll());
-        Project project = new Project(projectName, customer.getId(), companyCost);
+        //Project project = new Project(projectName, customer.getId(), companyCost); for jdbc
+        Project project = new Project(projectName, customer, companyCost);
         projectDao.create(project);
     }
 

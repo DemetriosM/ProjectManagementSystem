@@ -1,7 +1,17 @@
 package com.dmitriy.hw.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "skills")
 public class Skill extends BaseModel{
+    @Column
     private String lang;
+
+    public Skill() {
+    }
 
     public Skill(String lang) {
         this.lang = lang;

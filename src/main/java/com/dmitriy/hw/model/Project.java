@@ -1,9 +1,34 @@
 package com.dmitriy.hw.model;
 
+import javax.persistence.*;
+import java.util.List;
+
+@Entity
+@Table(name = "projects")
 public class Project extends BaseModel {
+    @Column
     private String name;
+    @ManyToOne
+    @JoinColumn(name = "customers_id")
+    private Customer customer;
+    @Transient
     private Long customerId;
+    @Column
     private Integer cost;
+    @ManyToMany(cascade = CascadeType.REFRESH)
+    @JoinTable(name = "developers_has_projects",
+            joinColumns = @JoinColumn(name = "projects_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "developers_id", referencedColumnName = "id"))
+    private List<Developer> developers;
+
+    public Project() {
+    }
+
+    public Project(String name, Customer customer, Integer cost) {
+        this.name = name;
+        this.customer = customer;
+        this.cost = cost;
+    }
 
     public Project(String name, Long customerId, Integer cost) {
         this.name = name;
@@ -19,12 +44,20 @@ public class Project extends BaseModel {
         this.name = name;
     }
 
-    public Long getCustomerId() {
-        return customerId;
+    public Customer getCustomer() {
+        return customer;
     }
 
-    public void setCustomer(Long customerId) {
-        this.customerId = customerId;
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
+    public Long getCustomerId() {
+        return customer.getId();
+    }
+
+    public void setCustomerId(Long customerId) {
+        this.customer.setId(customerId);
     }
 
     public Integer getCost() {
@@ -33,6 +66,14 @@ public class Project extends BaseModel {
 
     public void setCost(Integer cost) {
         this.cost = cost;
+    }
+
+    public List<Developer> getDevelopers() {
+        return developers;
+    }
+
+    public void setDevelopers(List<Developer> developers) {
+        this.developers = developers;
     }
 
     @Override
@@ -55,6 +96,7 @@ public class Project extends BaseModel {
 
     @Override
     public String toString() {
-        return String.format("%-5d %-13s %-8d", getId(), getName(), getCost());
+        return String.format("%-5d %-13s %-8d %-7s",
+                getId(), getName(), getCost(), getCustomer());
     }
 }

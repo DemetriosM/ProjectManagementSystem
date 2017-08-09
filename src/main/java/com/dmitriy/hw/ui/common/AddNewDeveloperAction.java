@@ -15,7 +15,8 @@ public class AddNewDeveloperAction extends AbstractDeveloperAction{
         Integer salary = Integer.parseInt(getValidString().trim());
         System.out.println("Select company.");
         Company company = commandLine.choose(companyDao.getAll());
-        Developer developer = new Developer(developerSurname, developerName, salary, company.getId());
+        //Developer developer = new Developer(developerSurname, developerName, salary, company.getId()); for jdbc
+        Developer developer = new Developer(developerSurname, developerName, salary, company);
         developerDao.create(developer);
     }
 
