@@ -1,5 +1,6 @@
 .idea
 target/
 files/
+logs/
 ProjectManagementSystem.iml
 External Libraries/
